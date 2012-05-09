@@ -1,6 +1,6 @@
 #use bigint lib => 'GMP';
 #ª‘å‚«‚¢”‚È‚çGMP‚ª‚ ‚Á‚½‚Ù‚¤‚ª‚¢‚¢‚©‚àB
-
+package test;
 sub soinsu{
 my $ta=$_[0];
 if($ta<=3){return q($ta);}
@@ -20,4 +20,5 @@ $i+=2;
 push @insu,$ta;
 return @insu;
 }
-foreach(soinsu(111)){print "$_,";}
+
+1;
